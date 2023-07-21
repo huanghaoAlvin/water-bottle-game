@@ -1,0 +1,28 @@
+[
+  {
+    "transformRelativePath": true,
+    "prefix": "colorsCopy",
+    "autoImport": "import { WaterBottleColor } from \"./water_bottle\";",
+    "template": "<%- colors?.map((item, index) => `[${item.split('').map(a => `${a}`)}]`)?.join(',\\n') _%>",
+    "scopes": [
+      "js",
+      "jsx",
+      "ts",
+      "tsx"
+    ],
+    "variable": [
+      {
+        "name": "colors",
+        "type": "string",
+        "required": true,
+        "string": {
+          "arrayMode": true
+        }
+      }
+    ],
+    "id": "rgskP4zM",
+    "mtime": 1689000410911,
+    "relativePath": "src\\index.ts",
+    "pkg": "water_bottle_game"
+  }
+]
